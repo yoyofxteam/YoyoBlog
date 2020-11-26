@@ -1,0 +1,34 @@
+yoyogo:
+  application:
+    name: Blogs
+    metadata: "develop"
+    server:
+      type: "fasthttp"
+      address: ":8080"
+      path: "/"
+      max_request_size: 2096157
+      mvc:
+        template: "/v1/{controller}/{action}"
+      static:
+        patten: "/"
+        webroot: "./Static"
+      views:
+        path: "./Static/templates"
+        includes: ["",""]
+  cloud:
+#    discovery:
+#      type: "nacos"
+#      metadata:
+#        url: "120.53.133.30"
+#        port: 80
+#        namespace: "public"
+#        group_name: ""
+    #    clusters: [""]
+#      type: "consul"
+#      metadata:
+#        address: "localhost:8500"
+#        health_check: "/actuator/health"
+#        tags: [""]
+#      type: "eureka"
+#      metadata:
+#        address: "http://localhost:5000/eureka"
