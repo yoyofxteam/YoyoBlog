@@ -1,15 +1,23 @@
 package main
 
 import (
+	"github.com/yoyofx/yoyogo/Abstractions"
 	YoyoGo "github.com/yoyofx/yoyogo/WebFramework"
-	"github.com/yoyofx/yoyogo/WebFramework/Context"
-	"github.com/yoyofx/yoyogo/WebFramework/Router"
+	"github.com/yoyofx/yoyogo/WebFramework/Mvc"
+	"yoyoFxBlog/controller"
 )
 
 func main() {
-	YoyoGo.CreateDefaultBuilder(func(router Router.IRouterBuilder) {
-		router.GET("/info",func (ctx *Context.HttpContext) {    // 支持Group方式
-			ctx.JSON(200, Context.H{"info": "ok"})
+
+	webHost := CreateYoyoBlogBuilder().Build()
+	webHost.Run()
+}
+
+func CreateYoyoBlogBuilder() *Abstractions.HostBuilder {
+	return YoyoGo.NewWebHostBuilder().
+		Configure(func(app *YoyoGo.WebApplicationBuilder) {
+			app.UseMvc(func(builder *Mvc.ControllerBuilder) {
+				builder.AddController(controller.NewUserController)
+			})
 		})
-	}).Build().Run()       //默认端口号 :8080
 }
