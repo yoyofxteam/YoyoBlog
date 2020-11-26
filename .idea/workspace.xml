@@ -19,7 +19,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,10 +72,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="848" y="462" key="#GOROOT" timestamp="1606373874887">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state x="1292" y="635" key="#GOROOT" timestamp="1606375945499">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1292" y="635" key="#GOROOT/0.0.2560.1400@0.0.2560.1400" timestamp="1606361400007" />
+    <state x="1292" y="635" key="#GOROOT/0.0.2560.1400@0.0.2560.1400" timestamp="1606375945499" />
     <state x="848" y="462" key="#GOROOT/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606373874887" />
     <state x="304" y="165" width="1071" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606373777459">
       <screen x="0" y="25" width="1680" height="963" />
@@ -85,25 +85,25 @@
       <screen x="0" y="25" width="1680" height="963" />
     </state>
     <state width="937" height="618" key="DebuggerActiveHint/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606373959795" />
-    <state width="1638" height="252" key="GridCell.Tab.0.bottom" timestamp="1606374127173">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state width="1419" height="520" key="GridCell.Tab.0.bottom" timestamp="1606375971432">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1419" height="334" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606372860670" />
+    <state width="1419" height="520" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606375971432" />
     <state width="1638" height="252" key="GridCell.Tab.0.bottom/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374127173" />
-    <state width="1638" height="252" key="GridCell.Tab.0.center" timestamp="1606374127173">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state width="1419" height="520" key="GridCell.Tab.0.center" timestamp="1606375971432">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1419" height="334" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606372860669" />
+    <state width="1419" height="520" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606375971432" />
     <state width="1638" height="252" key="GridCell.Tab.0.center/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374127173" />
-    <state width="1638" height="252" key="GridCell.Tab.0.left" timestamp="1606374127172">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state width="1419" height="520" key="GridCell.Tab.0.left" timestamp="1606375971432">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1419" height="334" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606372860669" />
+    <state width="1419" height="520" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606375971432" />
     <state width="1638" height="252" key="GridCell.Tab.0.left/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374127172" />
-    <state width="1638" height="252" key="GridCell.Tab.0.right" timestamp="1606374127173">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state width="1419" height="520" key="GridCell.Tab.0.right" timestamp="1606375971432">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1419" height="334" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606372860669" />
+    <state width="1419" height="520" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606375971432" />
     <state width="1638" height="252" key="GridCell.Tab.0.right/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374127173" />
     <state width="1638" height="312" key="GridCell.Tab.1.bottom" timestamp="1606373994834">
       <screen x="0" y="25" width="1680" height="963" />
