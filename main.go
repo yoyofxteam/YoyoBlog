@@ -13,12 +13,12 @@ func main() {
 }
 
 func CreateYoyoBlogBuilder() *Abstractions.HostBuilder {
-	configuration := Abstractions.NewConfigurationBuilder().AddYamlFile("config").Build()
+	//configuration := Abstractions.NewConfigurationBuilder().AddYamlFile("config").Build()
 	return YoyoGo.NewWebHostBuilder().
-		UseConfiguration(configuration).
+		//UseConfiguration(configuration).
 		Configure(func(app *YoyoGo.WebApplicationBuilder) {
 			app.UseMvc(func(builder *Mvc.ControllerBuilder) {
-				builder.AddViewsByConfig()
+				//builder.AddViewsByConfig()
 				builder.AddController(controller.NewUserController)
 			})
 		})

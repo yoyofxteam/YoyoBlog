@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7500f37b-3020-4645-aca8-fc7235ea289b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config_dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +70,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="没有配置不能指定view目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="没有配置不能指定view目录" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -81,54 +87,67 @@
       <screen x="0" y="25" width="1680" height="963" />
     </state>
     <state x="304" y="165" width="1071" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606373777459" />
-    <state width="937" height="618" key="DebuggerActiveHint" timestamp="1606373959795">
+    <state x="413" y="25" key="CommitChangelistDialog2" timestamp="1606374296774">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
-    <state width="937" height="618" key="DebuggerActiveHint/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606373959795" />
-    <state width="1638" height="252" key="GridCell.Tab.0.bottom" timestamp="1606374127173">
+    <state x="413" y="25" key="CommitChangelistDialog2/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374296774" />
+    <state width="937" height="618" key="DebuggerActiveHint" timestamp="1606376228366">
+      <screen x="0" y="25" width="1680" height="963" />
+    </state>
+    <state width="937" height="618" key="DebuggerActiveHint/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606376228366" />
+    <state width="1638" height="252" key="GridCell.Tab.0.bottom" timestamp="1606377035316">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
     <state width="1419" height="334" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606372860670" />
-    <state width="1638" height="252" key="GridCell.Tab.0.bottom/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374127173" />
-    <state width="1638" height="252" key="GridCell.Tab.0.center" timestamp="1606374127173">
+    <state width="1638" height="252" key="GridCell.Tab.0.bottom/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606377035316" />
+    <state width="1638" height="252" key="GridCell.Tab.0.center" timestamp="1606377035315">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
     <state width="1419" height="334" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606372860669" />
-    <state width="1638" height="252" key="GridCell.Tab.0.center/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374127173" />
-    <state width="1638" height="252" key="GridCell.Tab.0.left" timestamp="1606374127172">
+    <state width="1638" height="252" key="GridCell.Tab.0.center/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606377035315" />
+    <state width="1638" height="252" key="GridCell.Tab.0.left" timestamp="1606377035314">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
     <state width="1419" height="334" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606372860669" />
-    <state width="1638" height="252" key="GridCell.Tab.0.left/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374127172" />
-    <state width="1638" height="252" key="GridCell.Tab.0.right" timestamp="1606374127173">
+    <state width="1638" height="252" key="GridCell.Tab.0.left/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606377035314" />
+    <state width="1638" height="252" key="GridCell.Tab.0.right" timestamp="1606377035316">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
     <state width="1419" height="334" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606372860669" />
-    <state width="1638" height="252" key="GridCell.Tab.0.right/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374127173" />
-    <state width="1638" height="312" key="GridCell.Tab.1.bottom" timestamp="1606373994834">
+    <state width="1638" height="252" key="GridCell.Tab.0.right/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606377035316" />
+    <state width="1638" height="312" key="GridCell.Tab.1.bottom" timestamp="1606376478908">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
-    <state width="1638" height="312" key="GridCell.Tab.1.bottom/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606373994834" />
-    <state width="1638" height="312" key="GridCell.Tab.1.center" timestamp="1606373994834">
+    <state width="1638" height="312" key="GridCell.Tab.1.bottom/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606376478908" />
+    <state width="1638" height="312" key="GridCell.Tab.1.center" timestamp="1606376478907">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
-    <state width="1638" height="312" key="GridCell.Tab.1.center/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606373994834" />
-    <state width="1638" height="312" key="GridCell.Tab.1.left" timestamp="1606373994833">
+    <state width="1638" height="312" key="GridCell.Tab.1.center/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606376478907" />
+    <state width="1638" height="312" key="GridCell.Tab.1.left" timestamp="1606376478907">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
-    <state width="1638" height="312" key="GridCell.Tab.1.left/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606373994833" />
-    <state width="1638" height="312" key="GridCell.Tab.1.right" timestamp="1606373994834">
+    <state width="1638" height="312" key="GridCell.Tab.1.left/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606376478907" />
+    <state width="1638" height="312" key="GridCell.Tab.1.right" timestamp="1606376478907">
       <screen x="0" y="25" width="1680" height="963" />
     </state>
-    <state width="1638" height="312" key="GridCell.Tab.1.right/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606373994834" />
+    <state width="1638" height="312" key="GridCell.Tab.1.right/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606376478907" />
+    <state x="440" y="239" key="Vcs.Push.Dialog.v2" timestamp="1606374298188">
+      <screen x="0" y="25" width="1680" height="963" />
+    </state>
+    <state x="440" y="239" key="Vcs.Push.Dialog.v2/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606374298188" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$USER_HOME$/go/pkg/mod/github.com/yoyofx/yoyogo@v1.5.7/WebFramework/View/DefaultViewEngine.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$USER_HOME$/go/pkg/mod/github.com/yoyofx/yoyogo@v1.5.7/WebFramework/Mvc/MvcRouterHandler.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$USER_HOME$/go/pkg/mod/github.com/yoyofx/yoyogo@v1.5.7/WebFramework/Mvc/MvcRouteTemplate.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
