@@ -23,10 +23,10 @@ func CreateYoyoBlogBuilder() *Abstractions.HostBuilder {
 			app.UseMvc(func(builder *Mvc.ControllerBuilder) {
 				//builder.AddViewsByConfig()
 				builder.AddController(controller.NewUserController)
-				builder.AddController(controller.NewBlogController(*service.NewBlogService(*repository.NewBaseRepository(configuration))))
+				builder.AddController(controller.NewBlogController)
 			})
 		}).ConfigureServices(func(serviceCollection  *DependencyInjection.ServiceCollection) {
-		serviceCollection.AddTransientByImplements(repository.NewBaseRepository(configuration),new(repository.BaseRepository))
-		serviceCollection.AddTransientByImplements(service.NewBlogService(*repository.NewBaseRepository(configuration)),new(service.BlogService))
+		serviceCollection.AddTransientByImplements(repository.NewBaseRepository,repository.BaseRepository{})
+		serviceCollection.AddTransientByImplements(service.NewBlogService,service.BlogService{})
 	})
 }
