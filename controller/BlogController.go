@@ -9,10 +9,10 @@ import (
 
 type BlogController struct {
 	*Mvc.ApiController
-	blogService service.BlogService
+	blogService *service.BlogService
 }
 
-func NewBlogController(blogService service.BlogService) *BlogController {
+func NewBlogController(blogService *service.BlogService) *BlogController {
 	return &BlogController{blogService: blogService}
 }
 
