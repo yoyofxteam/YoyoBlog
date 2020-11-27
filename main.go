@@ -2,9 +2,12 @@ package main
 
 import (
 	"github.com/yoyofx/yoyogo/Abstractions"
+	"github.com/yoyofx/yoyogo/DependencyInjection"
 	YoyoGo "github.com/yoyofx/yoyogo/WebFramework"
 	"github.com/yoyofx/yoyogo/WebFramework/Mvc"
 	"yoyoFxBlog/controller"
+	"yoyoFxBlog/repository"
+	"yoyoFxBlog/service"
 )
 
 func main() {
@@ -18,8 +21,12 @@ func CreateYoyoBlogBuilder() *Abstractions.HostBuilder {
 		UseConfiguration(configuration).
 		Configure(func(app *YoyoGo.WebApplicationBuilder) {
 			app.UseMvc(func(builder *Mvc.ControllerBuilder) {
-				builder.AddViewsByConfig()
+				//builder.AddViewsByConfig()
 				builder.AddController(controller.NewUserController)
+				builder.AddController(controller.NewBlogController(*service.NewBlogService(*repository.NewBaseRepository(configuration))))
 			})
-		})
+		}).ConfigureServices(func(serviceCollection  *DependencyInjection.ServiceCollection) {
+		serviceCollection.AddTransientByImplements(repository.NewBaseRepository(configuration),new(repository.BaseRepository))
+		serviceCollection.AddTransientByImplements(service.NewBlogService(*repository.NewBaseRepository(configuration)),new(service.BlogService))
+	})
 }

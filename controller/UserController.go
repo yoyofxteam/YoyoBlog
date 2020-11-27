@@ -20,7 +20,7 @@ type UserController struct {
 	*Mvc.ApiController
 }
 
-func (*UserController)Register(ctx *Context.HttpContext, request *UserInfo) ActionResult.IActionResult {
+func (*UserController)PostRegister(ctx *Context.HttpContext, request *UserInfo) ActionResult.IActionResult {
 	result := Mvc.ApiResult{Success: true, Message: "ok", Data: request}
 	return ActionResult.Json{Data: result}
 }
