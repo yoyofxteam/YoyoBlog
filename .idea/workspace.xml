@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7500f37b-3020-4645-aca8-fc7235ea289b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/blog_business_di.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/blog_controllers_di.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/BlogController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BlogController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/BlogRepository.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/BlogService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/BlogService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config_dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -115,10 +108,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="848" y="462" key="#GOROOT" timestamp="1606462232765">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state x="1292" y="635" key="#GOROOT" timestamp="1606463156430">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1292" y="635" key="#GOROOT/0.0.2560.1400@0.0.2560.1400" timestamp="1606377570357" />
+    <state x="1292" y="635" key="#GOROOT/0.0.2560.1400@0.0.2560.1400" timestamp="1606463156430" />
     <state x="848" y="462" key="#GOROOT/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606462232765" />
     <state x="304" y="165" width="1071" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606373777459">
       <screen x="0" y="25" width="1680" height="963" />
@@ -136,25 +129,25 @@
       <screen x="0" y="25" width="1680" height="963" />
     </state>
     <state width="937" height="618" key="DebuggerActiveHint/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606376228366" />
-    <state width="1638" height="252" key="GridCell.Tab.0.bottom" timestamp="1606462445865">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state width="1723" height="347" key="GridCell.Tab.0.bottom" timestamp="1606463151720">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1723" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606461916144" />
+    <state width="1723" height="347" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606463151720" />
     <state width="1638" height="252" key="GridCell.Tab.0.bottom/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606462445865" />
-    <state width="1638" height="252" key="GridCell.Tab.0.center" timestamp="1606462445864">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state width="1723" height="347" key="GridCell.Tab.0.center" timestamp="1606463151719">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1723" height="397" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606461916143" />
+    <state width="1723" height="347" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606463151719" />
     <state width="1638" height="252" key="GridCell.Tab.0.center/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606462445864" />
-    <state width="1638" height="252" key="GridCell.Tab.0.left" timestamp="1606462445864">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state width="1723" height="347" key="GridCell.Tab.0.left" timestamp="1606463151719">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1723" height="397" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606461916142" />
+    <state width="1723" height="347" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606463151719" />
     <state width="1638" height="252" key="GridCell.Tab.0.left/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606462445864" />
-    <state width="1638" height="252" key="GridCell.Tab.0.right" timestamp="1606462445865">
-      <screen x="0" y="25" width="1680" height="963" />
+    <state width="1723" height="347" key="GridCell.Tab.0.right" timestamp="1606463151720">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1723" height="397" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606461916143" />
+    <state width="1723" height="347" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606463151720" />
     <state width="1638" height="252" key="GridCell.Tab.0.right/0.25.1680.963/1680.25.720.1255@0.25.1680.963" timestamp="1606462445865" />
     <state width="1638" height="312" key="GridCell.Tab.1.bottom" timestamp="1606376478908">
       <screen x="0" y="25" width="1680" height="963" />
@@ -189,6 +182,11 @@
           <url>file://$USER_HOME$/go/pkg/mod/github.com/yoyofx/yoyogo@v1.5.7/WebFramework/Mvc/MvcRouteTemplate.go</url>
           <line>27</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/repository/BaseRepository.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

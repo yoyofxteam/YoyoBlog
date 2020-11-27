@@ -16,9 +16,9 @@ yoyogo:
         path: "./Static/templates"
         includes: ["",""]
   database:
-    url:
-    username:
-    password:
+    url: localhost:3306
+    username: root
+    password: A.jiheMA?1
   cloud:
 #    discovery:
 #      type: "nacos"
