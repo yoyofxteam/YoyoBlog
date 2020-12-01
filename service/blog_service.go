@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"google.golang.org/genproto/googleapis/type/date"
 	"yoyoFxBlog/domain"
 	"yoyoFxBlog/repository"
 )
@@ -41,12 +42,12 @@ func (service *BlogService) QueryBlogList(pageIndex int, pageSize int) domain.Pa
 		res.TotalCount = count
 	}
 	start := (pageIndex-1) * pageSize
-	sql := fmt.Sprintf("SELECT * FROM `blog` ORDER BY creation_date LIMIT %d,%d", start, pageSize)
+	sql := fmt.Sprintf("SELECT *FROM `blog` ORDER BY creation_date LIMIT %d,%d", start, pageSize)
 	rows, err = conn.Query(sql)
 	if err != nil {
 		fmt.Println(err)
 	}
-	blogList := make([]domain.Blog, 20)
+	blogList := make([]domain.Blog,0)
 	for rows.Next() {
 
 		var id int
@@ -55,8 +56,9 @@ func (service *BlogService) QueryBlogList(pageIndex int, pageSize int) domain.Pa
 		var content string
 		var viewCount int
 		var author string
+		var creation_date date.Date
 
-		rows.Scan(&id, &title, &introduction, &content, &viewCount, &author)
+		rows.Scan(&id, &title, &introduction, &content, &viewCount, &author,&creation_date)
 		element := domain.Blog{
 			Id:           id,
 			Title:        title,
@@ -64,6 +66,8 @@ func (service *BlogService) QueryBlogList(pageIndex int, pageSize int) domain.Pa
 			Content:      content,
 			ViewCount:    viewCount,
 			Author:       author,
+			CreationDate: creation_date,
+
 		}
 		blogList = append(blogList, element)
 	}

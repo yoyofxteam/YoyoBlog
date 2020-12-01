@@ -16,9 +16,9 @@ yoyogo:
         path: "./Static/templates"
         includes: ["",""]
   database:
-    url: tcp(localhost:3306)/yoyoblog
+    url: tcp(cdb-amqub3mo.bj.tencentcdb.com:10042)/yoyoBlog
     username: root
-    password: A.jiheMA?1
+    password: 1234abcd
   cloud:
 #    discovery:
 #      type: "nacos"

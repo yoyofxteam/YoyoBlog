@@ -18,17 +18,18 @@ func NewBlogController(blogService *service.BlogService) *BlogController {
 
 type BlogRequest struct {
 	*Mvc.RequestBody
-	Id           int    `param:id`
-	Title        string `param:title`        //标题
-	Introduction string `param:introduction` //简介
-	Content      string `param:content`      //内容
-	ViewCount    int    `param:viewCount`    //浏览次数
+	Id           int    `param:"id"`
+	Title        string `param:"title"`        //标题
+	Introduction string `param:"introduction"` //简介
+	Content      string `param:"content"`      //内容
+	ViewCount    int    `param:"viewCount"`    //浏览次数
 }
 
 type PageRequest struct {
 	*Mvc.RequestBody
-	PageIndex int `param:pageIndex`
-	PageSize  int `param:pageSize`
+	PageIndex int `param:"pageIndex"`
+	PageSize  int `param:"pageSize"`
+
 }
 
 
