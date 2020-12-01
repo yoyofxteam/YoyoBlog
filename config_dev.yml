@@ -16,7 +16,7 @@ yoyogo:
         path: "./Static/templates"
         includes: ["",""]
   database:
-    url: localhost:3306
+    url: tcp(localhost:3306)/yoyoblog
     username: root
     password: A.jiheMA?1
   cloud:

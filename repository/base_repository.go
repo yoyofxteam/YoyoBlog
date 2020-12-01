@@ -3,6 +3,7 @@ package repository
 import (
 	"database/sql"
 	"fmt"
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/yoyofx/yoyogo/Abstractions"
 	"strings"
 )
@@ -16,16 +17,15 @@ func NewBaseRepository(config Abstractions.IConfiguration) *BaseRepository {
 }
 
 func (baseRepository *BaseRepository) InitDBConn() *sql.DB {
-	url := fmt.Sprint(baseRepository.config.Get("yoyogo:database:url"))
-	username := fmt.Sprint(baseRepository.config.Get("yoyogo:database:username"))
-	password := fmt.Sprint(baseRepository.config.Get("yoyogo:database:password"))
+	url := fmt.Sprint(baseRepository.config.Get("yoyogo.database.url"))
+	username := fmt.Sprint(baseRepository.config.Get("yoyogo.database.username"))
+	password := fmt.Sprint(baseRepository.config.Get("yoyogo.database.password"))
 	var sb = strings.Builder{}
 	sb.WriteString(username)
 	sb.WriteString(":")
 	sb.WriteString(password)
 	sb.WriteString("@")
 	sb.WriteString(url)
-	sb.WriteString("/YoyoBlog")
 	connStr := sb.String()
 	fmt.Println(connStr)
 	conn, err := sql.Open("mysql", connStr)
