@@ -3,14 +3,14 @@ package service
 import (
 	"fmt"
 	"yoyoFxBlog/domain"
-	"yoyoFxBlog/repository"
+	"yoyoFxBlog/repository/repository_impl"
 )
 
 type BlogService struct {
-	baseRepository *repository.BaseRepository
+	baseRepository *repository_impl.BaseRepository
 }
 
-func NewBlogService(baseRepository *repository.BaseRepository) *BlogService {
+func NewBlogService(baseRepository *repository_impl.BaseRepository) *BlogService {
 	return &BlogService{baseRepository: baseRepository}
 }
 
