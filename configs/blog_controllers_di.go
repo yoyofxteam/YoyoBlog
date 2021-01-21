@@ -1,10 +1,10 @@
 package configs
 
 import (
-	"github.com/yoyofx/yoyogo/WebFramework/Mvc"
+	"github.com/yoyofx/yoyogo/web/mvc"
 	"yoyoFxBlog/controller"
 )
 
-func ConfigController(builder *Mvc.ControllerBuilder) {
-	builder.AddController(controller.NewBlogController)
+func ConfigController(builder *mvc.ControllerBuilder) {
+	builder.AddController(controller.NewUserController)
 }

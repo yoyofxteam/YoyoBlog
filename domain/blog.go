@@ -11,5 +11,6 @@ type Blog struct {
 	Content      string //内容
 	ViewCount    int    //浏览次数
 	Author       string //作者
+	Order        int
 	CreationDate *time.Time
 }

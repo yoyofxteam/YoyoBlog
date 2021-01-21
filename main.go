@@ -1,13 +1,9 @@
 package main
 
 import (
-	"github.com/yoyofx/yoyogo/Abstractions"
-	"github.com/yoyofx/yoyogo/DependencyInjection"
-	YoyoGo "github.com/yoyofx/yoyogo/WebFramework"
-	"github.com/yoyofx/yoyogo/WebFramework/Mvc"
-	"yoyoFxBlog/controller"
-	"yoyoFxBlog/repository/repository_impl"
-	"yoyoFxBlog/service"
+	"github.com/yoyofx/yoyogo/abstractions"
+	WebApplication "github.com/yoyofx/yoyogo/web"
+	"yoyoFxBlog/configs"
 )
 
 func main() {
@@ -15,17 +11,12 @@ func main() {
 	webHost.Run()
 }
 
-func CreateYoyoBlogBuilder() *Abstractions.HostBuilder {
-	configuration := Abstractions.NewConfigurationBuilder().AddYamlFile("config").Build()
-	return YoyoGo.NewWebHostBuilder().
+func CreateYoyoBlogBuilder() *abstractions.HostBuilder {
+	configuration := abstractions.NewConfigurationBuilder().AddYamlFile("config").Build()
+	return WebApplication.NewWebHostBuilder().
 		UseConfiguration(configuration).
-		Configure(func(app *YoyoGo.WebApplicationBuilder) {
-			app.UseMvc(func(builder *Mvc.ControllerBuilder) {
-				builder.AddController(controller.NewBlogController)
-			})
+		Configure(func(app *WebApplication.WebApplicationBuilder) {
+			app.UseMvc(configs.ConfigController)
 		}).
-		ConfigureServices(func(serviceCollection *DependencyInjection.ServiceCollection) {
-			serviceCollection.AddTransient(repository_impl.NewBaseRepository)
-			serviceCollection.AddTransient(service.NewBlogService)
-		})
+		ConfigureServices(configs.ConfigBusiness)
 }
